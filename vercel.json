@@ -1,0 +1,12 @@
+{
+    "build": {
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "scripts": {
+        "build": "npm run build",
+        "preinstall": "chmod +x node_modules/.bin/vite"
+      }
+    }
+  }
+  
