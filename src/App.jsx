@@ -8,6 +8,7 @@ import PrivateRoute from "./helper/PrivateRoute";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ModalProvider, useModal } from "./services/contextApi";
 import LandsatForm from "./components/landsateComponent/DataGround";
+import CoordinatesForm from "./components/landsateComponent/CoordinatesForm";
 import { AuthProvider } from "./services/useAuth"; // Import AuthProvider
 import { LandsatProvider } from "./services/landSateContext"; // Import LandsatProvider
 
@@ -39,6 +40,7 @@ function AppRoutes() {
       <Route path="/about" element={<About />} />
       <Route path="/forgetpass" element={<ForgetPass />} />
       <Route path="/landsatForm" element={<LandsatForm />} />
+      <Route path="/coordinatesForm" element={<CoordinatesForm />} />
 
       <Route
         path="/map"
