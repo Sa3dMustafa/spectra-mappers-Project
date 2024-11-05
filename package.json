@@ -1,10 +1,10 @@
 {
-  "name": "spectra-mappers2",
+  "name": "spectra-mappers-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-  "build": "vite build",
+  "build": "npx vite build",
   "dev": "vite",
   "lint": "eslint .",
   "preview": "vite preview",
